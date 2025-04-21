@@ -1,0 +1,6 @@
+@GolobeTravelApi_HostAddress = http://localhost:5165
+
+GET {{GolobeTravelApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

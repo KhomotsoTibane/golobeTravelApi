@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolobeTravelApi", "GolobeTravelApi\GolobeTravelApi.csproj", "{91A66DA2-CBB5-4B54-8C67-B8AE4E192FDB}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{38F35B1D-9382-486F-B359-4C4A56340493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GolopeTravelApi.Tests", "GolopeTravelApi.Tests\GolopeTravelApi.Tests.csproj", "{000911B4-ACE2-4617-AE64-2B598C42A2C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A66DA2-CBB5-4B54-8C67-B8AE4E192FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A66DA2-CBB5-4B54-8C67-B8AE4E192FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A66DA2-CBB5-4B54-8C67-B8AE4E192FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A66DA2-CBB5-4B54-8C67-B8AE4E192FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F35B1D-9382-486F-B359-4C4A56340493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F35B1D-9382-486F-B359-4C4A56340493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F35B1D-9382-486F-B359-4C4A56340493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F35B1D-9382-486F-B359-4C4A56340493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{000911B4-ACE2-4617-AE64-2B598C42A2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000911B4-ACE2-4617-AE64-2B598C42A2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000911B4-ACE2-4617-AE64-2B598C42A2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000911B4-ACE2-4617-AE64-2B598C42A2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

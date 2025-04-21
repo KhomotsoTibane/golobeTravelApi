@@ -1,0 +1,26 @@
+services:
+  golobetravelapi:
+    image: ${DOCKER_REGISTRY-}golobetravelapi
+    container_name: golobetravelapi
+    build:
+      context: .
+      dockerfile: GolobeTravelApi/Dockerfile
+    ports:
+        - "5000:80"
+
+
+  golobeTravel.databse:
+    image: postgres:latest
+    container_name: golobeTravel.database
+    environment:
+        - POSTGRES_DB=golobeTravelDb
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=1997
+
+    volumes:
+        - ./.containers/golobetravel-db:/var/lib/postgresql/data
+
+    ports:
+    - 5432:5432
+
+
